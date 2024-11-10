@@ -1,0 +1,25 @@
+.emoji-list-item-container {
+    width: 30%;
+    height: 180px;
+    border: 2px solid #ffffff33;
+    background-color: #ffffff33;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    border-radius: 20px;
+  }
+  .emoji-btn {
+    outline: none;
+    background-color: transparent;
+    border: 0px;
+    cursor: pointer;
+  }
+  @media (min-width: 768px), (min-width: 992px), (min-width: 1200px) {
+    .emoji-list-item-container {
+      width: 20%;
+      margin-right: 20px;
+      height: 220px;
+    }
+  }
+  
